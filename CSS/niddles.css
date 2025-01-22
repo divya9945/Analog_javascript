@@ -1,0 +1,34 @@
+.niddles{
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index:10;
+
+}
+.niddles i{
+    position: absolute;
+    width:4px;
+    height: 50%;
+    background:var(--color);
+    border-radius: 6px;
+    transform-origin: bottom;
+    transform:scaleY(0.5);
+}
+.niddle2{
+    width:160px;
+    height:160px;
+}
+.niddle2 i{
+    width:4px;
+}
+.niddle3{
+    width:140px;
+    height:140px;
+}
+.niddle3 i{
+    width:4px;
+}
